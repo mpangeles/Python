@@ -112,11 +112,11 @@ Explicación del código
        
       -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
      
-```python
-   array = np.rot90(array[1:])
-```
-   
-   
+       ```python
+             array = np.rot90(array[1:])
+        ```
+        
+        
       -**elimina la primera fila de la matriz..**
        
       -**rota la matriz restante 90 grados en sentido antihorario.**
