@@ -102,19 +102,18 @@ Explicación del código
    - Mientras la matriz tenga elementos, se ejecuta el siguiente proceso:.
    
         -**Agregar la primera fila de la matriz a la lista**    `m`.
-	 
-		   ```python
-			m += array[0].tolist()
-		   ```
+   ```python
+   m += array[0].tolist()
+   ```
 			
 		-**Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.**
 		 
         -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
 	 
-		   ```python
-			array = np.rot90(array[1:])
-		   ```
-			
+   ```python
+   array = np.rot90(array[1:])
+   ```
+   
 		 -`array[1:]` elimina la primera fila de la matriz.
 		 
          -`np.rot90(...)` rota la matriz restante 90 grados en sentido antihorario.
