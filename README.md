@@ -115,9 +115,9 @@ Explicación del código
    array = np.rot90(array[1:])
    ```
    
-        -`array[1:]`     elimina la primera fila de la matriz.
+        -   `array[1:]`     elimina la primera fila de la matriz.
          
-         -`np.rot90(...)`     rota la matriz restante 90 grados en sentido antihorario.  
+         -   `np.rot90(...)`     rota la matriz restante 90 grados en sentido antihorario.  
         
 4. **Cuando el bucle termina,   `m`   contiene los elementos de la matriz en orden espiral y se retorna:**  
 
