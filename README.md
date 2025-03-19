@@ -101,13 +101,13 @@ Explicación del código
    ```
    - Mientras la matriz tenga elementos, se ejecuta el siguiente proceso:.
    
-     **-  Agregar la primera fila de la matriz a la lista **   `m`.
+        -  Agregar la primera fila de la matriz a la lista    `m`.
 	 
 		   ```python
 			m += array[0].tolist()
 			```
 			
-		 - Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.
+		- Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.
 		 
      **Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.
 	 
