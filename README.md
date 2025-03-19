@@ -1,4 +1,3 @@
-"# Python problems" 
 Explicacion problema  de convinaciones
 
 Función count_change(money, coins)
@@ -69,13 +68,11 @@ Conclusión
 ----------
 Este código usa **programación dinámica** para calcular cuántas combinaciones de monedas pueden sumar `money`. La idea clave es que cada `ways[i]` se construye a partir de los valores anteriores de la lista.
 
-Conclusión
 
-Este código usa programación dinámica para calcular cuántas combinaciones de monedas pueden sumar money. La idea clave es que cada ways[i] se construye a partir de los valores anteriores de la lista.
+-----------
 
-
-
-"# SnailSort problems" 
+SnailSort 
+------------------------------
 Explicacion problema  de ordenamiento serpiente
 
 Función snail(array)
