@@ -117,11 +117,8 @@ Explicación del código
    
         -elimina la primera fila de la matriz.
 		
-		`array[1:]`
-         
          -rota la matriz restante 90 grados en sentido antihorario.  
 		 
-		 `np.rot90(...)`
         
 4. **Cuando el bucle termina,   `m`   contiene los elementos de la matriz en orden espiral y se retorna:**  
 
