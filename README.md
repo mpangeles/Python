@@ -136,7 +136,7 @@ matrix = [
 print(snail(matrix))
 ```
 **Paso a paso**
-1. Se extrae, `[1, 2, 3]
+1. Se extrae, `[1, 2, 3]`
 2. Se rota la matriz restante:
 		```python
 		[[6, 9],
