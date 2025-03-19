@@ -1,4 +1,5 @@
-Convinaciones------------------------------
+Convinaciones
+------------------------------
 
 Explicacion problema  de convinaciones
 
