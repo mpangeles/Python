@@ -106,20 +106,19 @@ Explicación del código
         ```python
                m += array[0].tolist()
         ```
-   
-   
-      -**Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.**
-       
-      -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
+        
+      - Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.
+     
+      - **Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
      
        ```python
              array = np.rot90(array[1:])
         ```
         
         
-      -**elimina la primera fila de la matriz..**
+      - **elimina la primera fila de la matriz..**
        
-      -**rota la matriz restante 90 grados en sentido antihorario.**
+      - **rota la matriz restante 90 grados en sentido antihorario.**
      
 4. **Cuando el bucle termina,   `m`   contiene los elementos de la matriz en orden espiral y se retorna:**  
 
