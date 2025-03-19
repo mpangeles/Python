@@ -101,7 +101,7 @@ Explicación del código
    ```
    - Mientras la matriz tenga elementos, se ejecuta el siguiente proceso:.
    
-     **Agregar la primera fila de la matriz a la lista ** `m`.
+     - **Agregar la primera fila de la matriz a la lista ** `m`.
 	 
 		   ```python
 			m += array[0].tolist()
@@ -138,7 +138,7 @@ print(snail(matrix))
 **Paso a paso**
 1. Se extrae, `[1, 2, 3]
 2. Se rota la matriz restante:
-		```lua
+		```python
 		[[6, 9],
 		 [5, 8],
 		 [4, 7]]
@@ -147,14 +147,14 @@ print(snail(matrix))
 3. Se extrae `[6, 9]`
 
 4. Se rota la matriz restante:
-		```lua
+		```python
 			[[8, 7],
 			 [5, 4]]
 		```
 5. Se extrae `[8, 7]`
 
 6. Se rota la matriz restante:
-		```lua
+		```python
 			[[4, 5]]
 		```
 
