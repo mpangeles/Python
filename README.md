@@ -107,7 +107,7 @@ Explicación del código
                m += array[0].tolist()
         ```
         
-         - Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.
+     - Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.
      
       - **Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
      
