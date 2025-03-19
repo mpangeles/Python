@@ -110,7 +110,7 @@ Explicación del código
       -**Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.**
        
       -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
-	 
+     
    ```python
    array = np.rot90(array[1:])
    ```
