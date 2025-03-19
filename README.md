@@ -114,12 +114,12 @@ Explicación del código
    ```python
    array = np.rot90(array[1:])
    ```
-
-
-        -elimina la primera fila de la matriz.
-		
-         -rota la matriz restante 90 grados en sentido antihorario.  
-		 
+   
+   
+       -**elimina la primera fila de la matriz.**
+       
+         -**rota la matriz restante 90 grados en sentido antihorario.**
+       
         
 4. **Cuando el bucle termina,   `m`   contiene los elementos de la matriz en orden espiral y se retorna:**  
 
