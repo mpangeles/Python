@@ -140,7 +140,7 @@ print(snail(matrix))
 1. Se extrae, `[1, 2, 3]`
 2. Se rota la matriz restante:
 
-		```python
+		```
 		[[6, 9],
 		 [5, 8],
 		 [4, 7]]
@@ -150,7 +150,7 @@ print(snail(matrix))
 
 4. Se rota la matriz restante:
 
-		```python
+		```
 			[[8, 7],
 			 [5, 4]]
 		```
@@ -158,7 +158,7 @@ print(snail(matrix))
 
 6. Se rota la matriz restante:
 
-		```python
+		```
 			[[4, 5]]
 		```
 
