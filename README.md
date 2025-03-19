@@ -101,7 +101,7 @@ Explicación del código
    ```
    - Mientras la matriz tenga elementos, se ejecuta el siguiente proceso:.
    
-     - ***Agregar la primera fila de la matriz a la lista *** `m`.
+     - **Agregar la primera fila de la matriz a la lista **   `m`.
 	 
 		   ```python
 			m += array[0].tolist()
