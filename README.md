@@ -96,24 +96,24 @@ Explicación del código
    ```
    
 3. **Bucle principal**  
-   ```python
+```python
    while len(array) > 0:
-   ```
+```
    - Mientras la matriz tenga elementos, se ejecuta el siguiente proceso:.
    
         -**Agregar la primera fila de la matriz a la lista**    `m`.
-   ```python
-   m += array[0].tolist()
-   ```
+```python
+ m += array[0].tolist()
+```
    
    
       -**Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.**
        
       -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
      
-   ```python
+```python
    array = np.rot90(array[1:])
-   ```
+```
    
    
       -**elimina la primera fila de la matriz..**
@@ -140,27 +140,27 @@ print(snail(matrix))
 1. Se extrae, `[1, 2, 3]`
 2. Se rota la matriz restante:
 
-		```
-		[[6, 9],
-		 [5, 8],
-		 [4, 7]]
-		```
+```python
+ [[6, 9],
+ [5, 8],
+ [4, 7]]
+```
 
 3. Se extrae `[6, 9]`
 
 4. Se rota la matriz restante:
 
-		```
-			[[8, 7],
-			 [5, 4]]
-		```
+```python
+ [[8, 7],
+ [5, 4]]
+```
 5. Se extrae `[8, 7]`
 
 6. Se rota la matriz restante:
 
-		```
-			[[4, 5]]
-		```
+```python
+ [[4, 5]]
+```
 
 5. Se extrae `[4, 5]`
 
