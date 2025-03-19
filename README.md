@@ -115,9 +115,9 @@ Explicación del código
    array = np.rot90(array[1:])
    ```
    
-        -   `array[1:]`     elimina la primera fila de la matriz.
+        -elimina la primera fila de la matriz.  `array[1:]`
          
-         -   `np.rot90(...)`     rota la matriz restante 90 grados en sentido antihorario.  
+         -rota la matriz restante 90 grados en sentido antihorario.  `np.rot90(...)`
         
 4. **Cuando el bucle termina,   `m`   contiene los elementos de la matriz en orden espiral y se retorna:**  
 
@@ -138,6 +138,7 @@ print(snail(matrix))
 **Paso a paso**
 1. Se extrae, `[1, 2, 3]`
 2. Se rota la matriz restante:
+
 		```python
 		[[6, 9],
 		 [5, 8],
@@ -147,6 +148,7 @@ print(snail(matrix))
 3. Se extrae `[6, 9]`
 
 4. Se rota la matriz restante:
+
 		```python
 			[[8, 7],
 			 [5, 4]]
@@ -154,6 +156,7 @@ print(snail(matrix))
 5. Se extrae `[8, 7]`
 
 6. Se rota la matriz restante:
+
 		```python
 			[[4, 5]]
 		```
