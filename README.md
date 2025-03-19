@@ -108,16 +108,17 @@ Explicación del código
    
    
       -**Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.**
-        -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
+       
+      -**Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.**
 	 
    ```python
    array = np.rot90(array[1:])
    ```
    
-		 -`array[1:]` elimina la primera fila de la matriz.
-		 
-         -`np.rot90(...)` rota la matriz restante 90 grados en sentido antihorario.
-		 
+        -`array[1:]` elimina la primera fila de la matriz.
+         
+         -`np.rot90(...)` rota la matriz restante 90 grados en sentido antihorario.  
+        
 4. **Cuando el bucle termina, `m` contiene los elementos de la matriz en orden espiral y se retorna:**  
 
    ```python
