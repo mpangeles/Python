@@ -72,3 +72,89 @@ Este código usa **programación dinámica** para calcular cuántas combinacione
 Conclusión
 
 Este código usa programación dinámica para calcular cuántas combinaciones de monedas pueden sumar money. La idea clave es que cada ways[i] se construye a partir de los valores anteriores de la lista.
+
+
+
+"# SnailSort problems" 
+Explicacion problema  de ordenamiento serpiente
+
+Función snail(array)
+-----------------------------------
+Este código implementa la función snail, que recibe una matriz cuadrada y devuelve sus elementos en orden de espiral (siguiendo un patrón en el sentido de las agujas del reloj).
+
+Explicación del código
+-------------------------
+1. **Convertir la matriz a un array de NumPy**  
+   ```python
+   array = np.array(array)
+   ```
+   - Esto facilita las operaciones matriciales.
+   
+2. **Inicializar la lista m donde se almacenará la salida en orden espiral**  
+   ```python
+   m = []
+   ```
+   
+3. **Bucle principal**  
+   ```python
+   while len(array) > 0:
+   ```
+   - Mientras la matriz tenga elementos, se ejecuta el siguiente proceso:. 
+     **Agregar la primera fila de la matriz a la lista ** `m`.
+		   ```python
+			m += array[0].tolist()
+			```
+		 - Se toma la primera fila (`array[0]`) y se agrega a `m` como una lista.
+     **Eliminar la primera fila y rotar la matriz 90 grados en sentido antihorario.
+		   ```python
+			array = np.rot90(array[1:])
+			```
+		 -`array[1:]` elimina la primera fila de la matriz.
+         -`np.rot90(...)` rota la matriz restante 90 grados en sentido antihorario.
+4. **Cuando el bucle termina, `m` contiene los elementos de la matriz en orden espiral y se retorna:**  
+   ```python
+		return m
+   ```
+
+Ejemplo de ejecución
+---------------------
+```python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(snail(matrix))
+```
+**Paso a paso**
+1. Se extrae, `[1, 2, 3]
+2. Se rota la matriz restante:
+		```lua
+		[[6, 9],
+		 [5, 8],
+		 [4, 7]]
+		```
+
+3. Se extrae `[6, 9]`
+
+4. Se rota la matriz restante:
+		```lua
+			[[8, 7],
+			 [5, 4]]
+		```
+5. Se extrae `[8, 7]`
+
+6. Se rota la matriz restante:
+		```lua
+			[[4, 5]]
+		```
+
+5. Se extrae `[4, 5]`
+
+**Salida:**
+```python
+[1, 2, 3, 6, 9, 8, 7, 4, 5]
+```
+Conclusión
+----------
+Este código usa NumPy para manipular la matriz y extraer sus elementos en orden espiral de manera eficiente.
